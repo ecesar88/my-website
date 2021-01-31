@@ -3,75 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="./index.css" />
-    <title>My first nice webpage</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>Canada's Facts</title>
   </head>
   <body>
+    <nav id="nav">
+      <div id="flag">&nbsp;</div>
+      <div class="itemlink" id="selected">
+        <p><a href="index.html">HOME</a></p>
+      </div>
+      <div class="itemlink">
+        <p><a href="facts.html">FACTS</a></p>
+      </div>
+      <div class="itemlink">
+        <p><a href="history.html">HISTORY</a></p>
+      </div>
+    </nav>
+
     <div id="container">
-      <div class="headerDiv">
-        <img alt="design" src="designlogo.png" />
+      <div id="breadcrumb">
+        <span> > HOME</span>
         <hr />
       </div>
-
-      <div id="bodyDiv">
-        <h1>My great webpage</h1>
-        <h2>Under Development</h2>
-        <p>
-          This page is under development. Check back to see the progress as I
-          develop my project for the Introduction to Web Design from
-          <a href="nbcc.ca">NBCC</a>
-        </p>
-        <h2>My Project</h2>
-        <p>
-          As part of this course, I will be creating my own website as a
-          project. The website will be located here and will include:
-        </p>
-        <ol>
-          <li>Required elements, such as multiple pages, links and images</li>
-          <li>
-            Elements of good website design, such as visual appeal and easy
-            navigation
-          </li>
-          <li>Correct scripting in HTML and CSS</li>
-        </ol>
-        <p><b>Check back later</b> to see my great website!</p>
-
-        <p id="a">Favorite Links:</p>
-        <section>
-          <table>
-            <thead>
-              <tr>
-                <td>
-                  <a href="www.google.ca">Search the Web</a>
-                </td>
-                <td>
-                  <a href="nbcc.ca">Visit NBCC</a>
-                </td>
-                <td>
-                  <a href="mailto: e.cesar88@gmail.com">Contact Me</a>
-                </td>
-              </tr>
-            </thead>
-          </table>
-        </section>
+      <div class="title">
+        <h1>Canada - the "True North"</h1>
       </div>
-      <div id="footerDiv">
+      <h3>
+        From
+        <a id="refLink" href="https://en.wikipedia.org/wiki/Canada">Wikipedia</a
+        >:
+      </h3>
+      <div id="text-container">
         <p>
-          <b>Created by Erick Cesar</b> on 27/01/2021 as part of the
-          Introduction to Web Design course from the New Brunswick Community
-          College
+          Canada is a country in the northern part of North America. Its ten
+          provinces and three territories extend from the Atlantic to the
+          Pacific and northward into the Arctic Ocean, covering 9.98 million
+          square kilometres (3.85 million square miles), making it the world's
+          second-largest country by total area. Its southern and western border
+          with the United States, stretching 8,891 kilometres (5,525 mi), is the
+          world's longest bi-national land border. Canada's capital is Ottawa,
+          and its three largest metropolitan areas are Toronto, Montreal, and
+          Vancouver.
         </p>
-        <div id="address">
-          <div>
-            NBCC Saint John,<br>
-            P.O BOX 2270<br>
-            Saint John, NB, E2L 3Vl
-          </div>
-          <div>
-            <img alt="facebook-logo" src="./facebook.png" />
-          </div>
-        </div>
+      </div>
+
+      <div id="map">
+        <img alt="Canada's map" src="graphics/canada-map.gif" />
+      </div>
+      <div id="legend">
+        <span>Canada's map</span>
+      </div>
+      <div id="referenceSmall">
+        <small><a href="https://geology.com/world/canada-satellite-image.shtml">Reference</small>
       </div>
     </div>
+    <footer>
+      <div>
+
+        <p>Made by <b>Erick Cesar</b> on <b>30/01/2021</b> for the NBCC's Fundamentals of Web Design Course</p>
+      </div>
+
+      <div>
+        <p>Copyright &copy; 2021 - Erick Cesar</p>
+      </div>
+      
+    </footer>
+
   </body>
 </html>
