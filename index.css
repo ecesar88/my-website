@@ -25,7 +25,7 @@ h1, .title {
   font-weight: 750;
 }
 
-h3 {
+h3, h2 {
   margin-top: 15px;
   color: white
 }
@@ -60,6 +60,39 @@ hr {
   padding: 85px 15px 15px 15px;
   height: 100%;
   background-color: #00000070;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.formFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.formFlexLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formItem {
+  padding: 5px 10px;
+}
+
+input {
+  width: 100%;
 }
 
 #nav {
@@ -158,4 +191,73 @@ footer {
   justify-content: space-around;
   text-align: center;
 }
+
+#historyImg {
+  margin: 35px auto 25px auto;
+  width: 630px;
+  height: auto;
+  text-align: center;
+}
+
+tr, td, th, thead {
+  color: #000000
+}
+
+.table {
+  margin: 45px auto 15px auto;
+  background-color: white;
+  color: #000000 !important;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.tableTitle {
+  margin: 15px auto 15px auto;
+  text-align: center;
+}
+
+#tableTitle {
+  color: #000000
+}
+
+table {
+  width: 100%
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+td:hover {
+  background-color: #d4d4d4;
+}
+
+.moderate {
+  color: #ff6600
+}
+
+.good {
+  color: green
+}
+
+
+#tableReference, .tableReference {
+  color: white;
+  font-size: 10pt;
+}
+
+.tableReference {
+  text-decoration: underline;
+}
+
+.tableReference:hover {
+  color: #d4d4d4
+}
+
 

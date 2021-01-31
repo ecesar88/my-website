@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Canada's Facts - History</title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div id="flag">&nbsp;</div>
+      <div class="itemlink">
+        <p><a href="index.html">HOME</a></p>
+      </div>
+      <div class="itemlink">
+        <p><a href="facts.html">FACTS</a></p>
+      </div>
+      <div class="itemlink">
+        <p><a href="history.html">HISTORY</a></p>
+      </div>
+      <div class="itemlink" id="selected">
+        <p><a href="contact.html">CONTACT</a></p>
+      </div>
+    </nav>
+
+    <div id="container">
+      <div id="breadcrumb">
+        <span> > CONTACT</span>
+        <hr />
+      </div>
+      <div class="title">
+        <h1>Contact me</h1>
+      </div>
+      <h3>Send-me an e-mail and I'll get in touch</h3>
+
+      <div id="formContainer">
+        <form
+          action="mailto:e.cesar88@gmail.com?subject=Inquiry"
+          method="post"
+          enctype="text/plain"
+          autocomplete="on"
+        >
+          <div class="formGrid">
+            <div class="formItem">
+              <p>
+                Name:
+                <input
+                  type="text"
+                  size="20"
+                  name="Name"
+                  autofocus="autofocus"
+                />
+              </p>
+            </div>
+
+            <div class="formItem">
+              <p>
+                Email:
+                <input
+                  type="email"
+                  size="20"
+                  name="Email address"
+                  autocomplete="off"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div class="formItem">
+            <p>Have you ever visited Canada before?</p>
+          </div>
+
+          <div class="formGrid">
+            <div class="formItem">
+              <p>No <input type="radio" value="no" name="before" /></p>
+            </div>
+
+            <div class="formItem">
+              Yes <input type="radio" value="yes" name="before" />
+            </div>
+          </div>
+
+          <div class="formFlex">
+            <div class="formItem">
+              <p>
+                How likely is it that you will visit Canada in the next 12
+                months? (Select a value between 1 & 10)<br />
+                <br />
+                Definitely not (1)
+                <input type="range" name="Likely to visit" min="1" max="10" />
+                Definitely will (10)
+              </p>
+            </div>
+          </div>
+
+          <div class="formFlex">
+            <div class="formItem">
+              <p>How can I help you?</p>
+              <textarea
+                name="My question"
+                rows="2"
+                cols="70"
+                required="required"
+                placeholder="Enter your question or comment here."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="formFlex">
+            <div class="formItem" style="width: 20px">
+              <input type="checkbox" name="Notification" value="Yes" checked />
+            </div>
+
+            <div class="formItem">
+              I would like to receive email notification of new NB Adventures.
+            </div>
+          </div>
+
+          <div class="formFlexLast">
+            <div class="formItem">
+              <input type="submit" value="Submit" name="Submit" />
+              <input type="reset" value="Clear" name="Reset" />
+            </div>
+            <div class="formItem">
+              <img alt="facebook" src="graphics/facebook.png" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>
+          Made by <b>Erick Cesar</b> on <b>30/01/2021</b> for the NBCC's
+          Fundamentals of Web Design Course
+        </p>
+      </div>
+
+      <div>
+        <p>Copyright &copy; 2021 - Erick Cesar</p>
+      </div>
+    </footer>
+  </body>
+</html>
